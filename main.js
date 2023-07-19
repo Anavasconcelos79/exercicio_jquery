@@ -4,10 +4,13 @@
             const nomeTarefa = $('#nomeTarefa').val()
             const li = document.createElement('li')
             li.innerHTML = `${nomeTarefa}`
-            $('ul').append(li)
+            $('ul').append(li);
+
+            $('li').click(function(){
+                $(this).addClass("finalizado");
+            });
+
             $('#nomeTarefa').val('')
-            $(li).click(function() {
-            })
         })
 
         })

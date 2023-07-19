@@ -46,3 +46,7 @@ button {
 input, button {
     padding: 8px;
 }
+
+.finalizado {
+    text-decoration: line-through ;
+}
